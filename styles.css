@@ -118,10 +118,11 @@ h2{font-size:clamp(52px,5.6vw,89px);font-family:var(--serif);font-weight:500;let
 .faq-list details[open] .faq-symbol{transform:rotate(45deg)}
 .faq-list details p{font-size:12px;line-height:1.9;color:var(--muted);max-width:560px;margin:15px 35px 0 0}
 .contact{background:var(--milk);padding-bottom:150px}
-.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:12%;align-items:start}
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:12%;align-items:stretch}
+.contact-intro{display:flex;flex-direction:column}
 .contact-intro h2{max-width:520px;margin:0 0 30px}
 .contact-intro>p:not(.section-label){max-width:430px;color:var(--muted);line-height:1.9;font-size:13px;margin:0}
-.contact-photo{margin:50px 0 0;width:85%;height:330px;overflow:hidden}
+.contact-photo{margin:50px 0 0;width:85%;height:330px;flex-grow:1;overflow:hidden}
 .contact-photo img{width:100%;height:100%;object-fit:cover;object-position:center 53%;filter:saturate(.84)}
 .form-card{background:var(--light);padding:48px 51px 45px;border:1px solid #e0d8cd}
 .form-card h3{font-family:var(--serif);font-size:45px;font-weight:500;letter-spacing:-.04em;line-height:1.1;margin:0 0 7px}
