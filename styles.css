@@ -213,3 +213,33 @@ h2{font-size:clamp(52px,5.6vw,89px);font-family:var(--serif);font-weight:500;let
 .portfolio-slider-footer>.portfolio-counter{margin-right:0;align-self:center}
 @media(max-width:960px){.portfolio-slider{max-width:100%}.portfolio-slider-nav{right:13px;gap:9px}}
 @media(max-width:680px){.portfolio-slider-nav{right:9px;gap:9px}.portfolio-arrow{width:44px;height:44px;min-height:44px;font-size:21px}.portfolio-slider-footer>.portfolio-counter{margin-right:0}}
+
+/* Readability update: primary copy +2px; headings and decorative text unchanged. */
+.hero-lead{font-size:17px}
+.section-description{font-size:15px}
+.service-content p{font-size:14.5px}
+.service-bottom p{font-size:14px}
+.about-copy p:not(.section-label){font-size:15px}
+.about-copy p.about-intro{font-size:17px}
+.process-steps p{font-size:14px}
+.faq-title-wrap>p:last-child{font-size:15px}
+.faq-list summary{font-size:15px}
+.faq-list details p{font-size:14px}
+.contact-intro>p:not(.section-label){font-size:15px}
+.form-caption{font-size:13px}
+.field label{font-size:13px}
+.field input,.field select,.field textarea{font-size:14px}
+.consent{font-size:12px}
+.form-status{font-size:14px}
+.form-disclaimer{font-size:11px}
+.footer-top p{font-size:13px}
+.portfolio-slide-category{font-size:13px}
+@media(max-width:680px){
+ .hero-lead{font-size:15px}
+ .section-description{font-size:14px}
+ .service-content p{font-size:14px}
+ .about-copy p:not(.section-label){font-size:14px}
+ .about-copy p.about-intro{font-size:16px}
+ .contact-intro>p:not(.section-label){font-size:14px}
+ .portfolio-slide-category{font-size:12px}
+}
