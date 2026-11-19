@@ -244,3 +244,7 @@ h2{font-size:clamp(52px,5.6vw,89px);font-family:var(--serif);font-weight:500;let
  .contact-intro>p:not(.section-label){font-size:14px}
  .portfolio-slide-category{font-size:12px}
 }
+
+/* Vector arrows instead of iOS emoji-style arrow glyphs. */
+.icon-arrow-up-right{display:inline-block;width:1em;height:1em;vertical-align:-.125em;flex-shrink:0;stroke:currentColor;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.round-arrow .icon-arrow-up-right{width:1em;height:1em}
