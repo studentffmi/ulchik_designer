@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://studentffmi.github.io/ulchik_designer/sitemap.xml
